@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+*{
+  font-family: Lato;
+}
+  section{
+  display: grid;
+  grid-template-columns: 1fr 400px 1fr;
+  grid-template-areas: ". content .";
+  margin-top:10%;
+  height: 400px;
+}
+h2{
+  text-align:center
+}
+.content{
+  grid-area: content;
+  background: #EDEDED;
+  border-radius:20px;
+  filter: drop-shadow(6px 6px 4px black);
+  padding:5%;
+}
+
+input{
+  width: 100px;
+  text-align: right;
+}
+
+.results > table{
+  width: 100%;
+}
+
+.results > table > thead > th{
+  background: rgb(129, 124, 124);
+  color:whitesmoke
+}
+
+.results > table > tbody > td{
+  background: rgb(131, 130, 130);
+  color:white;
+  text-align:right;
+}
+
+

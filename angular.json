@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "calcubyte"
+  "defaultProject": "calcubyte",
+  "cli": {
+    "analytics": "e4834f3c-b0f7-40a0-9637-7ae1e5bdef07"
+  }
 }
